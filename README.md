@@ -1,1 +1,1 @@
-# one-hundred-ways-to-compile-js
+# Three ways to compile js
