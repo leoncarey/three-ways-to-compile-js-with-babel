@@ -8,7 +8,7 @@ const gulp = require('gulp'),
 // Minify js file
 gulp.task('js', () => {
     gulp.src([
-        wp_dir + 'src/js/app.js',
+        'src/js/app.js',
     ])
         .on('error', function (err) {
             console.log(err);
@@ -16,9 +16,9 @@ gulp.task('js', () => {
         .pipe(babel({
             presets: ['env']
         }))
-        .pipe(uglify())
+        // .pipe(uglify()) // If you want minify JS files uncomment this line
         .pipe(concat('app.min.js'))
-        .pipe(gulp.dest(wp_dir + 'dist/js'));
+        .pipe(gulp.dest('dist/js'));
 });
 
 
@@ -30,6 +30,6 @@ gulp.task('build', ['js']);
 gulp.task('default', ['build'], () => {
 
     // Watch JS Files
-    gulp.watch([wp_dir + "src/js/*.js"], ['js']);
+    gulp.watch(["src/js/*.js"], ['js']);
 
 });

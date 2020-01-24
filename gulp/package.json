@@ -1,22 +1,23 @@
 {
-  "name": "three-ways-to-compile",
+  "name": "three-ways-to-compile-js-with-babel",
   "version": "1.0.0",
-  "description": "Three ways, with\u001b[1;5D\u001b[D\u001b[D\u001b[D\u001b[\u001b[3~\u001b[3~\u001b[C\u001b[3\u001b[C\u001b[F\u001b[B\u001b[B\u001b[B\u001b[B\u001b[A\u001b[A\u001b[A\u001b[F\u001b[B\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C with three proccessors\u001b[D\u001b[D\u001b[D\u001b[D\u001b\u001b[3~\u001b[3~\u001b[3~\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001bessors\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[3~\u001b[3~\u001b[3~\u001b[D\u001b[D\u001b[D\u001b[D\u001b[F\u001b[B\u001b[B\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[A\u001b[C\u001b[C.",
+  "description": "Three ways, with three compilers.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run dev",
+    "dev": "gulp"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leoncarey/three-ways-to-compile-js.git"
+    "url": "git+https://github.com/leoncarey/three-ways-to-compile-js-with-babel.git"
   },
   "author": "Leonardo Carey",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/leoncarey/three-ways-to-compile-js/issues"
   },
-  "homepage": "https://github.com/leoncarey/three-ways-to-compile-js#readme",
-  "": {
+  "homepage": "https://github.com/leoncarey/three-ways-to-compile-js-with-babel#readme",
+  "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.6.1",
