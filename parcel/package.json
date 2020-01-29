@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run dev",
-    "dev": ""
+    "dev": "parcel index.html"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/leoncarey/three-ways-to-compile-js/issues"
   },
-  "homepage": "https://github.com/leoncarey/three-ways-to-compile-js-with-babel#readme"
+  "homepage": "https://github.com/leoncarey/three-ways-to-compile-js-with-babel#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
 }
