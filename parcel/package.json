@@ -4,7 +4,7 @@
   "description": "Three ways, with three compilers.",
   "main": "index.js",
   "scripts": {
-    "start": "npm run dev",
+    "start": "yarn run dev",
     "dev": "parcel index.html"
   },
   "repository": {
@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/leoncarey/three-ways-to-compile-js-with-babel#readme",
   "dependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
     "parcel-bundler": "^1.12.4"
   }
 }

@@ -4,7 +4,7 @@
   "description": "Three ways, with three compilers.",
   "main": "index.js",
   "scripts": {
-    "start": "npm run dev",
+    "start": "yarn run dev",
     "dev": "webpack-dev-server --output-public-path=/build/  --mode development --progress --open --hot",
     "build": "webpack --mode production --progress"
   },
